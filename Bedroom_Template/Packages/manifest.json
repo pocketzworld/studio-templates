@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.pz.studio": "0.17.10-build.910",
+    "com.pz.studio": "0.24.7-build.1282",
     "com.unity.addressables": "1.21.19",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.collections": "2.1.4",
