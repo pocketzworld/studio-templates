@@ -1,0 +1,45 @@
+.leaderboard-button {
+    display: flex;
+
+    margin-top: auto;
+    margin-right: 10px;
+
+    width: 100%;
+}
+
+.ranking-button {
+    display: flex;
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+
+    align-self: flex-end;
+
+    width: 36px;
+    height: 36px;
+
+    right: 15px;
+    bottom: 0;
+
+    overflow: hidden;
+
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+.button-content Image {
+  --unity-image: url("project://database/Assets/Downloads/Leaderboard UI/Scripts/Ranking_Icon.png");
+
+    width: 24px;
+    height: 24px;
+}
+
+.enabled {
+    opacity: 0.5;
+}
+
+.disabled {
+    display: none;
+}

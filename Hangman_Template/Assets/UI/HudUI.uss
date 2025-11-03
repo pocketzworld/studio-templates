@@ -1,0 +1,12 @@
+.hud-u-i{
+
+}
+.hud-u-i Image{
+    --unity-image: url("project://database/Assets/Template/Art/TorePaper2.png");
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hidden{
+    display: none;
+}

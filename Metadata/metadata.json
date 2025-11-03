@@ -1,0 +1,140 @@
+{
+    "templates": [
+        {
+            "displayName": "Empty",
+            "thumbnail": "BasicThumbnail.png",
+            "category": "template",
+            "description": "A basic template with a lighting preset and navmesh floor",
+            "packageName": "com.pz.templates.worlds.basic"
+        },
+        {
+            "displayName": "Isometric",
+            "thumbnail": "IsoThumbnail.png",
+            "category": "template",
+            "description": "A basic isometric template with 2d furniture sprites",
+            "packageName": "com.pz.templates.worlds.isometric"
+        },
+        {
+            "displayName": "Obstacle Course",
+            "thumbnail": "ObstacleThumbnail.png",
+            "category": "template",
+            "description": "A basic obstacle course with platforms, obstacles, and traps",
+            "packageName": "com.pz.templates.worlds.obstacle"
+        },
+        {
+            "displayName": "Cafe Simulator",
+            "thumbnail": "CaseSimThumbnail.png",
+            "category": "template",
+            "description": "A cafe job simulator with roles, tasks, stats, storage, and ui",
+            "packageName": "com.pz.templates.worlds.cafesim"
+        },
+        {
+            "displayName": "Tic Tac Toe",
+            "thumbnail": "TicTacToeThumbnail.png",
+            "category": "template",
+            "description": "A basic multiplayer Tic Tac Toe game",
+            "packageName": "com.pz.templates.worlds.tictactoe"
+        },
+        {
+            "displayName": "2D Platformer",
+            "thumbnail": "PlatformerThumbnail.png",
+            "category": "template",
+            "description": "A basic 2D Platformer Template",
+            "packageName": "com.pz.templates.worlds.platformer"
+        },
+        {
+            "displayName": "Joystick",
+            "thumbnail": "JoystickThumbnail.png",
+            "category": "template",
+            "description": "A template demonstrating joystick controls",
+            "packageName": "com.pz.templates.worlds.joystick"
+        },
+        {
+            "displayName": "Tiny Toon Forest",
+            "thumbnail": "TinyToonThumbnail.png",
+            "category": "template",
+            "description": "A basic template for creating a cozy woodland scene, perfect for beginner designs or quick setups.",
+            "packageName": "com.pz.templates.worlds.tinytoon"
+        },
+        {
+            "displayName": "Hangman",
+            "thumbnail": "HangmanThumbnail.png",
+            "category": "sample game",
+            "description": "A basic multiplayer Hangman game with UI and a Leaderboard",
+            "packageName": "com.pz.templates.worlds.hangman"
+        },
+        {
+            "displayName": "Kaiju King",
+            "thumbnail": "KaijuThumbnail.png",
+            "category": "sample game",
+            "description": "An IO style survival game",
+            "packageName": "com.pz.templates.worlds.kaijuking"
+        },
+        {
+            "displayName": "Night Club",
+            "thumbnail": "VoxelClubThumbnail.png",
+            "category": "environment",
+            "description": "An industrial nightclub with a 360 camera, radio, and dancefloor",
+            "packageName": "com.pz.templates.worlds.voxelclub"
+        },
+        {
+            "displayName": "Bedroom",
+            "thumbnail": "BedroomThumbnail.png",
+            "category": "environment",
+            "description": "A bedroom template",
+            "packageName": "com.pz.templates.worlds.bedroom"
+        },
+        {
+            "displayName": "Cafe",
+            "thumbnail": "CafeThumbnail.png",
+            "category": "environment",
+            "description": "A cozy cafe template",
+            "packageName": "com.pz.templates.worlds.cafe"
+        },
+        {
+            "displayName": "Club Siren",
+            "thumbnail": "SirenThumbnail.png",
+            "category": "environment",
+            "description": "A cool club template with a DJ space and dancefloor",
+            "packageName": "com.pz.templates.worlds.siren"
+        },
+        {
+            "displayName": "Crystal Caves",
+            "thumbnail": "CrystalCaveThumbnail.png",
+            "category": "environment",
+            "description": "A magic crystal cave template, with colorfull gemstones and lights",
+            "packageName": "com.pz.templates.worlds.cave"
+        },
+        {
+            "displayName": "Underworld",
+            "thumbnail": "UnderworldThumbnail.png",
+            "category": "environment",
+            "description": "A fiery underworld template ready to become any experiance you can imagine",
+            "packageName": "com.pz.templates.worlds.underworld"
+        },
+        {
+            "displayName": "Magical Cottage",
+            "thumbnail": "WitchThumbnail.png",
+            "category": "environment",
+            "description": "A magical cottage template with colorful lighting and particle effects",
+            "packageName": "com.pz.templates.worlds.witch"
+        }
+    ],
+    "categories": [
+        {
+            "displayName": "Templates",
+            "description": "Simple games that you can learn and build from.",
+            "category": "template"
+        },
+        {
+            "displayName": "Sample Games",
+            "description": "These games can show you how advanced interactions can be accomplished with scripting.",
+            "category": "sample game"
+        },
+        {
+            "displayName": "Environments",
+            "description": "Role play environments, some of which you may have seen in Highrise already. These examples are here to help you learn how they were built and explore what a more visually complex world may look like.",
+            "category": "environment"
+        }
+    ]
+}

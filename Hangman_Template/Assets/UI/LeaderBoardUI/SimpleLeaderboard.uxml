@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="simple-leaderboard">
+
+    <VisualElement class="leaderboard-Title">
+      <hr:UILabel class="title" name="leaderboardtitletext"/>
+    </VisualElement>
+
+    <VisualElement class="leaderboard-entry">
+      <hr:UILabel class="placeLabel" name="localName"/>
+      <hr:UILabel class="scoreLabel" name="localScore"/>
+    </VisualElement>
+
+    <VisualElement class="leaderboard-entry">
+      <hr:UILabel class="nameLabel" name="entry1name"/>
+      <hr:UILabel class="scoreLabel" name="entry1score"/>
+    </VisualElement>
+
+    <VisualElement class="leaderboard-entry">
+      <hr:UILabel class="nameLabel" name="entry2name"/>
+      <hr:UILabel class="scoreLabel" name="entry2score"/>
+    </VisualElement>
+
+    <VisualElement class="leaderboard-entry">
+      <hr:UILabel class="nameLabel" name="entry3name"/>
+      <hr:UILabel class="scoreLabel" name="entry3score"/>
+    </VisualElement>
+
+    <VisualElement class="leaderboard-entry">
+      <hr:UILabel class="nameLabel" name="entry4name"/>
+      <hr:UILabel class="scoreLabel" name="entry4score"/>
+    </VisualElement>
+
+    <VisualElement class="leaderboard-entry">
+      <hr:UILabel class="nameLabel" name="entry5name"/>
+      <hr:UILabel class="scoreLabel" name="entry5score"/>
+    </VisualElement>
+
+  </hr:UILuaView>
+
+</UXML>

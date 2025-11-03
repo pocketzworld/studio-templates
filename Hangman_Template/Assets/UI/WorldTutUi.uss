@@ -1,0 +1,8 @@
+.world-tut-ui{
+    flex-grow: 1;
+}
+.world-tut-ui Image{
+    --unity-image: url("project://database/Assets/Template/Art/TorePaper3.png");
+    margin-top: auto;
+    margin-bottom: auto;
+}

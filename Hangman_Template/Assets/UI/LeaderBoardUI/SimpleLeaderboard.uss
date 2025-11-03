@@ -1,0 +1,33 @@
+.simple-leaderboard{
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Template/Art/TorePaper.png");
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/QuickPencil-Regular SDF.asset");
+}
+
+.simple-leaderboard #leaderboardtitletext{
+    font-size: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25;
+    padding: 20px;
+
+}
+
+.simple-leaderboard .leaderboard-entry{
+    flex-direction: row;
+    padding: 15px;
+    font-size: 32px;
+    justify-content: space-between;
+    color: rgba(50,50,50,1);
+}
+
+.simple-leaderboard .leaderboard-entry .placeLabel{
+    margin-left: 40px;
+}
+.simple-leaderboard .leaderboard-entry .nameLabel{
+    margin-left: 40px;
+}
+.simple-leaderboard .leaderboard-entry .scoreLabel{
+    margin-right: 30px;
+    -unity-font-style: bold;
+}

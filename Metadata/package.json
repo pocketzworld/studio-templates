@@ -1,0 +1,17 @@
+{
+    "name": "com.pz.templates.worlds.metadata",
+    "version": "PACKAGE_VERSION",
+    "displayName": "Template Metadata",
+    "description": "Highrise Studio Project Template Metadata",
+    "unity": "2022.3",
+    "unityRelease": "16f1",
+    "dependencies": {
+    },
+    "keywords": [
+    ],
+    "author": {
+        "name": "Pocket Worlds",
+        "email": "support@pocketworlds.com",
+        "url": "https://pocketworlds.com"
+    }
+}

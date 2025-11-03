@@ -1,0 +1,17 @@
+{
+    "name": "com.pz.templates.worlds.joystick",
+    "version": "PACKAGE_VERSION",
+    "displayName": "Joystick",
+    "description": "A template demonstrating joystick controls",
+    "unity": "2022.3",
+    "unityRelease": "20f1",
+    "dependencies": {
+    },
+    "keywords": [
+    ],
+    "author": {
+        "name": "Pocket Worlds",
+        "email": "support@pocketworlds.com",
+        "url": "https://pocketworlds.com"
+    }
+}

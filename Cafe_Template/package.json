@@ -1,0 +1,18 @@
+{
+    "name": "com.pz.templates.worlds.cafe",
+    "version": "PACKAGE_VERSION",
+    "displayName": "Cafe Template",
+    "description": "Highrise Studio Cafe Project Template",
+    "unity": "2022.3",
+    "unityRelease": "20f1",
+    "dependencies": {
+
+    },
+    "keywords": [
+    ],
+    "author": {
+        "name": "Pocket Worlds",
+        "email": "support@pocketworlds.com",
+        "url": "https://pocketworlds.com"
+    }
+}

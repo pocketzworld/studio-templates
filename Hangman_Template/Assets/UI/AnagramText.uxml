@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="anagram-text" picking-mode="Ignore">
+
+  <VisualElement class="container">
+    <hr:UISlider name="rapidSlider" class="slider" picking-mode="Ignore"/>
+    <hr:UIButton class="button" name="rapidFireButton"/>
+  </VisualElement>
+
+  <hr:UILabel name="cooldown" picking-mode="Ignore">
+  </hr:UILabel>
+
+  <hr:UILabel name="anagramText" picking-mode="Ignore">
+  </hr:UILabel>
+
+  <hr:UILabel name="usedLetters" picking-mode="Ignore">
+  </hr:UILabel>
+
+  </hr:UILuaView>
+
+</UXML>

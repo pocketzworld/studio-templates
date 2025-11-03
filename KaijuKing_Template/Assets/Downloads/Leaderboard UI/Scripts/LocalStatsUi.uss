@@ -1,0 +1,56 @@
+.local-stats-ui {
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  padding: 4px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: rgba(0,0,0,.25);
+  border-radius: 10px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.number {
+  font-size: 35px;
+  color: #ffffff;
+  -unity-font-style: bold;
+  /*
+  -unity-text-outline-width: 2px;
+  -unity-text-outline-color: white;
+  */
+}
+
+.button {
+  width: 64px;
+  height: 64px;
+  margin-left: 10px;
+  background-color: rgba(0,0,0,.2);
+}
+
+.player-stat-gui #cashIcon{
+}
+
+.player-stat-gui #cashCount{
+    color: white;
+}
+
+#powerIcon{
+    width: 32px;
+    height: 32px;
+    --unity-image: url("project://database/Assets/Downloads/Leaderboard UI/Scripts/Orb_Boom.png");
+}
+
+.player-stat-gui #powerCount{
+    color: white;
+}
