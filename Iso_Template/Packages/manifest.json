@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.pz.studio": "0.17.10",
+    "com.pz.studio": "0.24.7-build.1282",
     "com.unity.addressables": "1.21.20",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.collections": "2.1.4",
@@ -50,7 +50,7 @@
   "scopedRegistries": [
     {
       "name": "Highrise Studio",
-      "url": "https://npm.highrise.game",
+      "url": "https://npm-dev.highrise.game",
       "scopes": [
         "com.pz.studio"
       ]
