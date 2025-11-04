@@ -62,7 +62,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_characterPrefab
       value: 
-      objectReference: {fileID: 1126692865400699833, guid: 257a642d7e8bdee4fb0dd92a56ff9b1b,
+      objectReference: {fileID: 7955539617203406427, guid: 1f9a2670dcbc0174a8a49f3409e88883,
         type: 3}
     - target: {fileID: 6694746433855017560, guid: 4ea8fc71d0d33aa4794e860bd8a9318a,
         type: 3}
@@ -122,6 +122,10 @@ MonoBehaviour:
   m_maxLinkDistance: 1
   m_maxLinkAngle: 95
   m_minLinkMoveStepChange: 0.24
+  m_hideOnDesktop: 0
+  m_hideOnExternalInput: 1
+  m_anchorThumbstick: 0
+  m_preventDraggingThumbstick: 0
   references:
     version: 2
     RefIds:
