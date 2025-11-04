@@ -19,13 +19,17 @@ using UnityEditor;
 
 namespace Highrise.Lua.Generated
 {
-    [AddComponentMenu("Lua/TicTacToeManager")]
-    [LuaRegisterType(0x5bb90909e3f3116, typeof(LuaBehaviour))]
-    public class TicTacToeManager : LuaBehaviourThunk
+    [AddComponentMenu("Lua/PlaySound")]
+    [LuaRegisterType(0x5d67efd8d82fa82, typeof(LuaBehaviour))]
+    public class PlaySound : LuaBehaviourThunk
     {
-        private const string s_scriptGUID = "4c31f02fc4400ae49b1de931712710f8";
+        private const string s_scriptGUID = "6259ae51eea8c9c45bda1e0f667ef3ec";
         public override string ScriptGUID => s_scriptGUID;
 
+        [Tooltip("Audio shader to play. To create an Audio Shader, right click an audio file then go to Create->Highrise->Audio->Audio Shader")]
+        [SerializeField] public Highrise.AudioShader _audioShader = default;
+        [Tooltip("Delay in seconds before playing the sound.")]
+        [SerializeField] public System.Double _secondsDelay = 0;
 
         protected override SerializedPropertyValue[] SerializeProperties()
         {
@@ -34,11 +38,13 @@ namespace Highrise.Lua.Generated
 
             return new SerializedPropertyValue[]
             {
+                CreateSerializedProperty(_script.GetPropertyAt(0), _audioShader),
+                CreateSerializedProperty(_script.GetPropertyAt(1), _secondsDelay),
             };
         }
         
 #if HR_STUDIO
-        [MenuItem("CONTEXT/TicTacToeManager/Edit Script")]
+        [MenuItem("CONTEXT/PlaySound/Edit Script")]
         private static void EditScript()
         {
             VisualStudioCodeOpener.OpenPath(AssetDatabase.GUIDToAssetPath(s_scriptGUID));
