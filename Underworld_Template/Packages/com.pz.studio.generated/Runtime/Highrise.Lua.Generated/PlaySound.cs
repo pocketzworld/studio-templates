@@ -19,14 +19,17 @@ using UnityEditor;
 
 namespace Highrise.Lua.Generated
 {
-    [AddComponentMenu("Lua/PlayerCharacterSpawner")]
-    [LuaRegisterType(0x86c889f16f49fd6d, typeof(LuaBehaviour))]
-    public class PlayerCharacterSpawner : LuaBehaviourThunk
+    [AddComponentMenu("Lua/PlaySound")]
+    [LuaRegisterType(0x5d67efd8d82fa82, typeof(LuaBehaviour))]
+    public class PlaySound : LuaBehaviourThunk
     {
-        private const string s_scriptGUID = "88de721fb90843944b4f498ca102c1b3";
+        private const string s_scriptGUID = "6259ae51eea8c9c45bda1e0f667ef3ec";
         public override string ScriptGUID => s_scriptGUID;
 
-        [SerializeField] public UnityEngine.GameObject m_characterPrefab = default;
+        [Tooltip("Audio shader to play. To create an Audio Shader, right click an audio file then go to Create->Highrise->Audio->Audio Shader")]
+        [SerializeField] public Highrise.AudioShader _audioShader = default;
+        [Tooltip("Delay in seconds before playing the sound.")]
+        [SerializeField] public System.Double _secondsDelay = 0;
 
         protected override SerializedPropertyValue[] SerializeProperties()
         {
@@ -35,12 +38,13 @@ namespace Highrise.Lua.Generated
 
             return new SerializedPropertyValue[]
             {
-                CreateSerializedProperty(_script.GetPropertyAt(0), m_characterPrefab),
+                CreateSerializedProperty(_script.GetPropertyAt(0), _audioShader),
+                CreateSerializedProperty(_script.GetPropertyAt(1), _secondsDelay),
             };
         }
         
 #if HR_STUDIO
-        [MenuItem("CONTEXT/PlayerCharacterSpawner/Edit Script")]
+        [MenuItem("CONTEXT/PlaySound/Edit Script")]
         private static void EditScript()
         {
             VisualStudioCodeOpener.OpenPath(AssetDatabase.GUIDToAssetPath(s_scriptGUID));
