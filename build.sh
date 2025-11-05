@@ -19,7 +19,8 @@ for template in *_Template; do
     fi
 
     package=`cat $template/package.json | jq .name | xargs echo`
-    index=`cat Metadata/metadata.json | jq ".templates | map(.packageName) | index(\"$package\")"`
+
+    index=`cat Metadata/metadata.json | jq "(.templates + .internalTemplates) | map(.packageName) | index(\"$package\")"`
 
     if [ "null" != "$index" ]
     then
@@ -39,7 +40,9 @@ for template in $templates; do
     cp -R $template/Assets Build/$package/Assets
     cp -R $template/Library~ Build/$package/Library
     cp $template/ProjectSettings/EditorBuildSettings.asset Build/$package/ProjectSettings/EditorBuildSettings.asset
-    cp $template/ProjectSettings/WorldSettings.asset Build/$package/ProjectSettings/WorldSettings.asset
+    if [ -e $template/ProjectSettings/WorldSettings.asset ]; then
+        cp $template/ProjectSettings/WorldSettings.asset Build/$package/ProjectSettings/WorldSettings.asset
+    fi
     echo "{\"name\":\"$name\",\"id\":\"$package\"}" > Build/$package/ProjectSettings/TemplateInfo.json
 
     if [ -e "$template/.extra-build-files" ]; then
