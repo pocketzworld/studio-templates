@@ -14,14 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _version: 2
   _publishedId: 
-  _worldPrefab: {fileID: 9171886453793455768, guid: 569fdf5ca373dfb43bac53ec5237b9a6,
+  _worldPrefab: {fileID: 518250794618184464, guid: 2efe2e7f93cb6f3438193acbb8337fc8,
     type: 3}
-  _scenePrefab: {fileID: 8457444051872364791, guid: 4ea8fc71d0d33aa4794e860bd8a9318a,
+  _scenePrefab: {fileID: 3610665162767330547, guid: 0dccabd0d25591a4fa5704470f3aaf75,
     type: 3}
-  _uiFactory: {fileID: -2017830929143987780, guid: 535f0ca8d24712145845322f20f87a0d,
-    type: 3}
-  _hideVirtualPlayerScenes: 1
+  _localizationDatabase: {fileID: 0}
   _scenes:
   - Name: Room
     Scene: {fileID: 102900000, guid: 3d97b014f52721147ba461f2a8133078, type: 3}
-    LoadingImage: {fileID: 2800000, guid: 6f9235fd7c31aea498918ab44c186b79, type: 3}
+    LoadingImage: {fileID: 0}
+  _minVolumeDistance: 10
+  _maxVolumeDistance: 7
+  _highQualityAvatars: 0
+  _hideVirtualPlayerScenes: 1
+  _enableRealTimeLight: 0
+  _useRemoteServer: 0
+  _localServerPorts: a10f0000
+  _remoteServerUserIds: []
+  _checkStudioUpdatesOnLaunch: 1
+  _enableSceneButtons: 1
+  _enableSceneGuides: 1
+  _switchLayoutOnPlayMode: 0
