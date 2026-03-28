@@ -1,0 +1,17 @@
+{
+    "name": "com.pz.templates.worlds.clothing",
+    "version": "PACKAGE_VERSION",
+    "displayName": "Clothing Template",
+    "description": "Highrise Studio Clothing Project Template",
+    "unity": "2022.3",
+    "unityRelease": "20f1",
+    "dependencies": {
+    },
+    "keywords": [
+    ],
+    "author": {
+        "name": "Pocket Worlds",
+        "email": "support@pocketworlds.com",
+        "url": "https://pocketworlds.com"
+    }
+}

@@ -120,6 +120,15 @@
             "packageName": "com.pz.templates.worlds.witch"
         }
     ],
+    "internalTemplates": [
+        {
+            "displayName": "Clothing",
+            "thumbnail": "ClothingThumbnail.png",
+            "category": "clothing",
+            "description": "A template project for creating new clothing items",
+            "packageName": "com.pz.templates.worlds.clothing"
+        }
+    ],
     "categories": [
         {
             "displayName": "Templates",
@@ -135,6 +144,13 @@
             "displayName": "Environments",
             "description": "Role play environments, some of which you may have seen in Highrise already. These examples are here to help you learn how they were built and explore what a more visually complex world may look like.",
             "category": "environment"
+        }
+    ],
+    "internalCategories": [
+        {
+            "displayName": "Clothing",
+            "description": "Templates for creating new clothing items.",
+            "category": "clothing"
         }
     ]
 }
